@@ -5,6 +5,18 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [
     remix({
+      routes(defineRoutes) {
+        return defineRoutes((route) => {
+          route("Home", "Home.tsx"),
+          route("AboutMe", "AboutMe.tsx"),
+          route("/", "Home.tsx"),
+          route("CV", "CV.tsx"),
+          route("Skillset", "Skillset.tsx"),
+          route("Contact", "Contact.tsx"),
+          route("Socials", "Socials.tsx")
+        })
+      },
+      
       future: {
         v3_fetcherPersist: true,
         v3_relativeSplatPath: true,

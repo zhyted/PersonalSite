@@ -1,0 +1,23 @@
+.navbar {
+  
+    -webkit-mask: 
+    linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255, 1) 90%),
+    linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255, 1) 90%);
+ -webkit-mask-repeat:no-repeat;
+ 
+ mask: 
+    linear-gradient(to right, rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 50%,  rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0) right /50.05% 100%,
+    linear-gradient(to left, rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 50%,  rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0) left /50.05% 100%;
+ mask-repeat:no-repeat;
+}
+
+.box3 {
+   transform-style: preserve-3d;
+   transform-origin: left;
+   transform: rotate3d(0,1,0, 60deg)
+}
+.box1 {
+   transform-style: preserve-3d;
+   transform-origin: right;
+   transform: rotate3d(0,1,0, -60deg)
+}
