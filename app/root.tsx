@@ -49,8 +49,6 @@ export default function App() {
       </head>
       <body className="bg-stone-900">
         <Outlet/>
-        
-        
         <div className="navbar absolute w-[70vw] h-[10vh] mx-[15vw] bottom-[1vh] rounded-[17px]
         flex flex-row justify-center">
           {
