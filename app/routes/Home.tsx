@@ -9,9 +9,10 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
+    <div className="font-sans text-white p-20">
     
-      <p>hhsfdhhhhhhhhhhi</p>
+      TODO: Home Text
+      
     
     </div>
   );

@@ -9,10 +9,11 @@ export const meta: MetaFunction = () => {
 
 export default function Skillset() {
     return (
-      <div className="font-sans p-4">
+      <div className="font-sans text-white p-20">
+    
+      TODO: Skillset Text
       
-        <p>hhsfdhhhhhhhhhhi</p>
-      
-      </div>
+    
+    </div>
     );
   }

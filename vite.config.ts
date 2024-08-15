@@ -9,7 +9,7 @@ export default defineConfig({
         return defineRoutes((route) => {
           route("Home", "Home.tsx"),
           route("AboutMe", "AboutMe.tsx"),
-          route("/", "Home.tsx"),
+          route("/Home", "Home.tsx"),
           route("CV", "CV.tsx"),
           route("Skillset", "Skillset.tsx"),
           route("Contact", "Contact.tsx"),
